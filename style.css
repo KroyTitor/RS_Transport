@@ -10,12 +10,12 @@ body{
 }
 
 .lyft_image_index, .van_image_index, .sprinter_image_index{
-    max-width: 250px;
-    max-height: 200px;
+    max-width: 30%;
+    margin-left: 10px;
 }
 
 .van_image_index{
-    max-width: 180px;
+    max-width: 25%;
 }
 
 .header_container {
@@ -37,7 +37,6 @@ body{
 
 .menu{
     width: 100%;
-    margin: 15px;
     list-style: none;
     color: antiquewhite;
     display: flex;
@@ -48,7 +47,8 @@ body{
 }
 
 .menu li{
-    margin-right: 15px;
+    margin-right: 30px;
+    margin-left: 15px;
 }
 
 a{
@@ -83,15 +83,31 @@ h1{
     font-size: 1.5em;
 }
 
-.index_text_2{
-
-}
-footer{
+.index_utrustning{
     width: 100%;
+    padding: 15px;
+    margin: 15;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: antiquewhite;
+}
+.index_text_2{
+    text-align: center;
+    width: ;
+    border-bottom-style:solid ;
+    border-bottom-width: 3px;
+    border-bottom-color: antiquewhite;
+}
+.footer{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
     position: fixed;
     background-color: transparent;
     color: antiquewhite;
     bottom: 0;
+    padding: 15px;
 }
 
 .footer_copywrite{
@@ -99,8 +115,67 @@ footer{
 }
 
 .phone, .phone_image{
-    width: 25%;
-    display: flex;
-    align-items: flex-end;
-    margin-right: 100px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.phone_image{
+    display: block;
+}
+
+#image{
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.expertis_header{
+    font-size: 2em;
+    color: antiquewhite;
+}
+
+.expertis_ul{
+    color: antiquewhite;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+.expertis_div{
+    width: 30%;
+    margin: 15px;
+    margin-left: 30px; 
+}
+
+.tjänster_header{
+    color: antiquewhite;
+    font-size: 2em;
+}
+
+.tjänster_ul{
+    color: antiquewhite;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+.övriga_tjänster_div{
+    width: 30%;
+    margin: 15px;
+    margin-left:30px; 
+}
+
+.kontakt_kort{
+    width: 20%;
+    margin: 15px;
+    margin-left: auto; margin-right: auto;
+    padding: 30px;
+    background-color: rgb(190, 190, 190,.5);
+    text-align: center;
+}
+
+.kort_icon{
+    display: block;
+    width: 40px;
+    margin-left: auto; margin-right: auto;
 }

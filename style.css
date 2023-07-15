@@ -7,7 +7,25 @@
 }
 
 body{
-    background-color: transparent;
+    animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
 }
 
 .lyft_image_index, .van_image_index, .sprinter_image_index{
@@ -32,6 +50,7 @@ body{
     margin: 15px;
     z-index: 1;
     position: relative;
+    display: none;
 }
 
 .menu{
@@ -46,45 +65,49 @@ body{
 }
 
 .menu li{
-    margin-right: 30px;
-    margin-left: 15px;
+    padding: 15px;
 }
 
 a{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    font-weight: bold;
+    color: rgb(138, 138, 255);
+    text-shadow: 3px 1px 3px rgba(65, 48, 218, 0.7);
 }
 
 .header_background{
-    position: absolute;
+    position: fixed;
     width: 100%;
     max-height: 100%;
     top: 0;
     left: 0;
-    max-width: 100%;
     background-position: center;
     z-index: -1;
 }
 
 h1{
+    height: 3em;
+    margin: 30px;
     position: relative;
     font-size: 5em;
     text-align: center;
     z-index: 1;
-    color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
     background-color: transparent;
-}
-
-[class*="text"]{
-    font-size: 6em;
-    color: antiquewhite;
-    padding: 30px;
 }
 
 .index_text_1{
     width: 100%;
     min-height: 30%;
     font-size: 110%;
-    background-color: rgba(37, 36, 41, 0.3);
+    text-align: center;
+    padding: 30px;
+    color: antiquewhite;
+    background-color:rgb(19, 70, 180);
 }
 
 .index_utrustning{
@@ -98,6 +121,8 @@ h1{
 .index_text_2{
     text-align: center;
     width: ;
+    font-size: 3em;
+    color: white;
     border-bottom-style:solid ;
     border-bottom-width: 3px;
     border-bottom-color: antiquewhite;
@@ -137,10 +162,11 @@ h1{
 }
 
 .expertis_header{
+    width: ;
     font-size: 3em;
     color: antiquewhite;
     background-color: rgba(46, 45, 53, 0.3);
-    padding: 10px;
+    padding: 20px;
 }
 
 .expertis_ul{
@@ -151,7 +177,7 @@ h1{
 }
 
 .expertis_div{
-    width: 30%;
+    width: 40%;
     margin: 15px;
     margin-left: 30px;
     background-color: rgba(60, 59, 68, 0.5);
@@ -199,7 +225,7 @@ h1{
 .besiktning_div{
     width: 50%;
     margin: 15px;
-    margin-left: 30px; 
+    margin-left: auto; 
     background-color: rgba(77, 76, 85, .5);
 }
 
@@ -219,4 +245,38 @@ h1{
 
 .övriga_tjänster_dl{
     color: antiquewhite;
+}
+
+.prisklass_div{
+    width: 100%;
+    background-color: rgb(27, 24, 24, 1.6);
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.prisklass_header{
+    font-size: 2.5em;
+}
+
+.prisklass_text{
+    font-size: 100%;
+    width: 50%;
+    margin-top: 15px; margin-bottom: 15px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-radius: 3px;
+    border-top-color: antiquewhite;
+    padding: 10px;
+    text-align: left;
+}
+
+.prisklass_list{
+    list-style: circle;
+    color: antiquewhite;
+}
+
+.prisklass_list_title, dt{
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: 800;
 }

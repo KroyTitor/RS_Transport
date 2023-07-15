@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       setTimeout(function() {
         // Navigate to the new page
         window.location.href = link.href;
-      }, 300); // Adjust the timeout to match the duration of the fade-out animation
+      }, 500); // Adjust the timeout to match the duration of the fade-out animation
     });
   });
 });

@@ -13,6 +13,12 @@
         justify-content: flex-start;
         width: 100%;
     }
+
+    .övriga_tjänster_div{
+        width: 100%;
+        margin-left: auto; margin-right: auto;
+    }
+
 }
 
 body{
@@ -75,6 +81,7 @@ body{
 
 .menu li{
     padding: 15px;
+    font-size: 2em;
 }
 
 a{
@@ -99,10 +106,8 @@ a:hover{
 }
 
 h1{
-    height: 3em;
-    margin: 30px;
-    position: relative;
-    font-size: 5em;
+    position: ;
+    font-size: 6vw;
     text-align: center;
     z-index: 1;
     color: rgb(255, 255, 255);
@@ -150,7 +155,7 @@ h1{
     padding: 15px;
 }
 
-.footer_copywrite{
+.footer_copyright{
 }
 
 .phone, .phone_image{
@@ -184,7 +189,6 @@ h1{
 }
 
 .expertis_header{
-    width: ;
     font-size: 3em;
     color: antiquewhite;
     background-color: rgba(46, 45, 53, 0.3);
@@ -199,7 +203,8 @@ h1{
 }
 
 .expertis_div{
-    width: 40%;
+    margin-left: auto; margin-right: auto;
+    width: 50%;
     background-color: rgba(60, 59, 68, 0.5);
 }
 
@@ -215,16 +220,16 @@ h1{
 }
 
 .kontakt_kort{
-    width: 20%;
+    overflow-wrap: break-word;
+    width: 50%;
     margin: 15px;
     margin-left: auto; margin-right: auto;
-    padding: 30px;
+    padding: 25px;
     background-color: rgb(190, 190, 190,.5);
     text-align: center;
 }
 
 .kontakt_mail_text{
-    width: 50%;
 }
 
 .kort_icon{
@@ -249,15 +254,15 @@ h1{
 .besiktning_div{
     width: 50%;
     margin: 15px;
-    margin-left: auto; 
+    margin-left: auto; margin-right: auto;
     background-color: rgba(77, 76, 85, .5);
 }
 
 .övriga_tjänster_div{
-    font-size: 18px; 
-    width: 30%;
+    font-size: 20px; 
+    width: 80%;
     margin: 15px;
-    margin-left:30px;
+    margin-right:auto; 
     background-color: rgb(34, 30, 30, .6);
     padding: 10px;
 }

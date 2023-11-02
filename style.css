@@ -81,7 +81,7 @@ body{
 
 .menu li{
     padding: 15px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 a{
@@ -112,6 +112,27 @@ h1{
     z-index: 1;
     color: rgb(255, 255, 255);
     background-color: transparent;
+}
+
+.index_h2{
+    margin: 15px;
+    margin-left: auto; margin-right: auto;
+    width: 50%;
+    background-color: rgba(9, 9, 10, 0.5);
+    padding: 50px;
+    text-align: right;
+}
+
+.index_kontakt_offert{
+    display: ;
+    width: 70%;
+    margin: 15px;
+    margin-left: auto; margin-right: auto;
+    padding: 15px;
+    font-size: 2vw;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(16, 16, 17, 0.9);
 }
 
 .index_text_1{
@@ -252,7 +273,7 @@ h1{
 }
 
 .besiktning_div{
-    width: 50%;
+    width: 70%;
     margin: 15px;
     margin-left: auto; margin-right: auto;
     background-color: rgba(77, 76, 85, .5);

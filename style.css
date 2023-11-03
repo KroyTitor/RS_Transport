@@ -24,6 +24,8 @@
 body{
     animation: fade-in 0.5s ease;
     background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+
 }
 
 @keyframes fade-in {
@@ -44,33 +46,21 @@ body{
     }
 }
 
-.lyft_image_index, .van_image_index, .sprinter_image_index{
-    max-width: 30%;
-    margin-left: 10px;
-}
-
 .van_image_index{
     max-width: 25%;
 }
 
 .header_container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.logo{
-    max-width: 10%;
-    max-height: 10%;
-    margin: 15px;
-    z-index: 1;
-    position: relative;
-    display: none;
-}
 
 .menu{
-    width: 100%;
+    width: fit-content;
     list-style: none;
     color: antiquewhite;
     display: flex;
@@ -80,6 +70,7 @@ body{
 }
 
 .menu li{
+    width: 100%;
     padding: 15px;
     font-size: 1.5em;
 }
@@ -106,8 +97,8 @@ a:hover{
 }
 
 h1{
-    position: ;
-    font-size: 6vw;
+    width: 100%;
+    font-size: 4em;
     text-align: center;
     z-index: 1;
     color: rgb(255, 255, 255);
@@ -202,8 +193,7 @@ h1{
 }
 
 #image{
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
     display: block;
     margin-top: 0px;
     margin-bottom: 0;
